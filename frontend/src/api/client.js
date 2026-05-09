@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiClient = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api',
+  baseURL: "https://ai-resume-analyzer-production-ca21.up.railway.app/api",
   timeout: 30000,
 })
 
