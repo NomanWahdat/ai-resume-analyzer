@@ -29,7 +29,12 @@ SECRET_KEY = 'django-insecure-t5d+n5d^g6nyoa9qhr(f$!y)c&9^pzwkq0^=1svua&=q*d0g)a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'testserver']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'testserver',
+    'ai-resume-analyzer-production-ca21.up.railway.app',
+]
 
 
 # Application definition
