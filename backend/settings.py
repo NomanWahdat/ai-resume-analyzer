@@ -30,7 +30,12 @@ SECRET_KEY = 'django-insecure-t5d+n5d^g6nyoa9qhr(f$!y)c&9^pzwkq0^=1svua&=q*d0g)a
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "*"
+    "ai-resume-analyzer-production-ca21.up.railway.app",
+    "localhost",
+    "127.0.0.1",
+]
+CSRF_TRUSTED_ORIGINS = [
+    "https://ai-resume-analyzer-production-ca21.up.railway.app",
 ]
 
 
