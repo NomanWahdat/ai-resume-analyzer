@@ -37,6 +37,10 @@ ALLOWED_HOSTS = [
 CSRF_TRUSTED_ORIGINS = [
     "https://ai-resume-analyzer-production-ca21.up.railway.app",
 ]
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+    'https://ai-resume-analyzer-ruby-gamma.vercel.app',
+]
 
 
 # Application definition
@@ -139,7 +143,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-CORS_ALLOW_ALL_ORIGINS = True
+
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
